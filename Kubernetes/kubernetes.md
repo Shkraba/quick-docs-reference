@@ -1,4 +1,4 @@
-# Kubernete and Azure Kubernetes Service (AKS) Commands
+# Kubernetes and Azure Kubernetes Service (AKS) Commands
 
 ## Local Kubernetes (kubectl)
 
