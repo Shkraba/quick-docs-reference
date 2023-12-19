@@ -71,6 +71,8 @@ COMMAND | CONVERSION
 `openssl x509 -outform der -in cert.pem -out cert.der` | PEM to DER
 `openssl x509 -inform der -in cert.der -out cert.pem` | DER to PEM
 `openssl pkcs12 -in cert.pfx -out cert.pem -nodes` | PFX to PEM
+`openssl pkcs12 -export -out certificate.pfx -inkey privatekey.key -in certificate.crt -certfile CA_bundle.crt` | CRT to PFX
+
 
 ## Verify Certificates
 `openssl verify -CAfile ca.pem -verbose cert.pem`
